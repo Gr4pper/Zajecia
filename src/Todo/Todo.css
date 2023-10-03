@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(61, 30, 61);
+    color: white;
+}
+input{
+    background-color:rgb(61, 30, 61);
+    height: 30px;
+    width: 30%;
+    border-radius: 10%;
+    color: white;
+}
+button{
+    background-color: rgb(61, 30, 61);
+    color: white;
+    height: 30px;
+    border-radius: 30%;
+}
+.Todo{
+    background-color: rgb(208, 4, 235);
+    width: 40%;
+    height: 7vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    color: white;
+  }
+  .delete{
+    float: right;
+    margin: 3%;
+    cursor: pointer;
+    background-color: red;
+    width: 10%;
+    color: white;
+
+  }
+  .task{
+    float: left;
+    padding: 5px;
+  }
