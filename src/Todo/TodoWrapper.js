@@ -9,13 +9,19 @@ export const TodoWrapper = () => {
     const [todos, setTodos] = useState([])
     
     const addTodo = todo => {
+        //if(!{task}){
+        //    setTodos([...todos, {id: uuidv4(), task: false, completed: false, isEditing: false}])
+        //console.log(todos)
+        //}else{
+
         setTodos([...todos, {id: uuidv4(), task: todo, completed: false, isEditing: false}])
         console.log(todos)
-    }
+    //}
+}
     
     const toggleComplete = id => {
         setTodos(todos.map(todo => todo.id === id ? {...todo, completed: !todo.completed} : todo))
-    }
+     }
 
     const deleteTodo = id => {
         setTodos([...todos].filter(todo => todo.id !== id))
@@ -30,4 +36,4 @@ export const TodoWrapper = () => {
             ))}
         </div>
     )
-}
+ }

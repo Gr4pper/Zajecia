@@ -35,5 +35,19 @@ button{
   }
   .task{
     float: left;
-    padding: 5px;
+    padding: 2%;
+    width: 80%;
+    text-align: left;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .completed{
+    text-decoration: line-through;
+    color: grey;
+    float: left;
+    padding: 2%;
+    width: 80%;
+    text-align: left;
+    font-size: 1.2em;
+    cursor: pointer;
   }
